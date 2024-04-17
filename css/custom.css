@@ -1,0 +1,125 @@
+.courses-item{
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	height: 100%;
+} 
+.courses-item img{
+	width: 100% !important;
+	height: auto;
+}
+.facts-item img {
+	width: 80px;
+}
+.contact-left-area{
+	height: 550px;
+}
+.contact-info .btn.btn-link::before{
+	content: " ";
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.contact-img{
+	height: 100%;
+}
+.contact-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.shipping-item {
+	border: 2px solid #ef5827;
+	text-align: center;
+	padding: 8px;
+	border-radius: 10px;
+	padding-bottom: 0;
+}
+.contact-page-header{
+	background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('../img/bg/bg2.jpg') center center no-repeat;
+}
+
+.dropdown-item {
+	padding: .5rem 1rem;
+	margin: 10px 0px;
+}
+
+.page-header-content h3 {
+	color: var(--primary);
+	margin-top: -10px;
+}
+.page-header-content h5 {
+	color: #146cf6;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+.page-header-content p {
+	color: #fff;
+} 
+.international-market-research-row {
+  height: 70vh;
+ /*  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 2px solid #ef5827; */
+/*   border-radius: 10px; */
+/*   justify-content: center;
+  align-items: center;
+  display: flex; */
+  border-bottom: 2px solid #ddd;
+}
+.international-market-research-row:last-child{
+	border-bottom: none;
+}
+.international-market-research-row img{
+	width: 100%;
+	height: 300px;
+}
+
+.hel-list li {
+  list-style: none;
+  line-height: 40px;
+}
+.hel-list li i {
+  color: #ef5827;
+}
+@media screen and (max-width: 992px) {
+	#service{
+		margin-top: 15rem;
+	}
+	#about-us{
+		padding-top: 0px;
+	}
+	.international-market-research-row{
+		height: auto;
+		margin-bottom: 150px;
+		border-bottom: 0;
+	}
+	.international-market-research-row img{
+		height: auto;
+	}
+	.international-market-research-row2, 
+	.international-market-research-row4{
+		flex-direction: column-reverse !important;
+	}
+	.international-market-research-service{
+      margin-top: 0px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.logo img {
+		width: 150px;
+	}
+	.contact-us{
+		background-image: none;
+	}
+	.contact-left-area{
+		height: auto;
+	}
+	#service{
+		margin-top: 8rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.home-service {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 40px !important;
+}
+}
